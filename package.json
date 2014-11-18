@@ -1,0 +1,15 @@
+{
+  "name": "dir2obj",
+  "description": "Turns directory structures into plain ol' JS objects and vice versa.",
+  "version": "0.0.0",
+  "devDependencies": {
+    "gulp-strip-debug": "^1.0.1",
+    "jasmine-node": "^1.14.5",
+    "run-sequence": "^1.0.1",
+    "tmp": "0.0.24"
+  },
+  "dependencies": {
+    "node-touch": "0.0.3",
+    "q": "^1.1.1"
+  }
+}
