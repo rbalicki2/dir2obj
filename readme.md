@@ -99,6 +99,12 @@ Value: `{}`
 
 Value: `''`
 
+## To do
+
+* Better exception handling (symlinks, files existing, etc.)
+* More config options
+* Command line options
+
 ## License
 
 MIT
