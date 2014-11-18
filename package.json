@@ -1,8 +1,9 @@
 {
   "name": "dir2obj",
   "description": "Turns directory structures into plain ol' JS objects and vice versa.",
+  "keywords" : ["directory structure", "directory", "mkdir", "touch", "create"],
   "version": "0.0.0",
-  "homepage" : 
+  "homepage" : "https://github.com/rbalicki2/dir2obj",
   "devDependencies": {
     "gulp-strip-debug": "^1.0.1",
     "jasmine-node": "^1.14.5",
@@ -12,5 +13,17 @@
   "dependencies": {
     "node-touch": "0.0.3",
     "q": "^1.1.1"
-  }
+  },
+  "author" : {
+    "name" : "Robert Balicki",
+    "email": "robert.balicki@gmail.com"
+  },
+  "main" : "index.js",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/rbalicki2/dir2obj"
+  },
+  "scripts" : {
+    "test" : "gulp test"
+  }  
 }
