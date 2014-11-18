@@ -25,12 +25,8 @@ function obj2dir(obj, dir, opt) {
   opt = opt || {};
 
   mkdir(dir, {existingDirectoryOkay: true}).then(function() {
-    recurseObject(obj, dir, opt).then(function(err) {
-      if (err) {
-        deferred.reject(err);
-      } else {
-        deferred.resolve();
-      }
+    recurseObject(obj, dir, opt).then(function() {
+      deferred.resolve();
     });
   });
 
