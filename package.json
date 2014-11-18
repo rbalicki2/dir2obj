@@ -21,7 +21,7 @@
   "main" : "index.js",
   "repository" : {
     "type" : "git",
-    "url" : "https://github.com/rbalicki2/dir2obj"
+    "url" : "https://github.com/rbalicki2/dir2obj.git"
   },
   "scripts" : {
     "test" : "gulp test"
