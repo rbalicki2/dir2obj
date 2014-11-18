@@ -4,7 +4,9 @@
 
 *Issues should be reported on the [issue tracker](https://github.com/rbalicki2/dir2obj/issues).*
 
-Intended as a complement to git for boilerplate projects. git ignores empty directories and empty files (see [here](http://stackoverflow.com/questions/115983/add-empty-directory-to-git-repository)). This presents a problem when creating project boilerplates - create dummy files in required directories and have the user delete these dummy files, or have the end user learn about the required directories and create them?
+**dir2obj** is intended as a complement to git for boilerplate projects.
+
+git ignores empty directories and empty files (see [here](http://stackoverflow.com/questions/115983/add-empty-directory-to-git-repository)). This presents a problem when creating project boilerplates - create dummy files in required directories and have the user delete these dummy files, or have the end user learn about the required directories and create them?
 
 **dir2obj** is an easy, light-weight solution for creating directory structures and empty files. See below for example uses.
 
